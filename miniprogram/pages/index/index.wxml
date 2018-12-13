@@ -1,0 +1,23 @@
+<!--index.wxml-->
+
+<view class="container">
+
+<view class='activityCard' bindtap='gotoDetail'>
+  <view class='upCard'>
+    <image class='upCard_backGroundImage' src='/images/cardBG_Learn.jpeg'></image> 
+    <image></image>
+    <image class='upCard_cancelButton' src='/images/cancelButton.png'></image>
+    <text class='upCard_titleText'>念经打卡</text>
+    <text class='upCard_dayText'>第100天</text>
+  </view>
+
+  <view class='downCard'>
+    <image class='downCard_memberIcon' src='/images/member.png'></image>
+    <text class='downCard_memberNumText'>0人参与</text>
+    <image class='downCard_leaderIcon' src='/images/leader.png'></image>
+    <text class='downCard_organizerText'>组织者：义工 </text>
+  </view>
+</view>
+
+
+</view>

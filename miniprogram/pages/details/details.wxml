@@ -1,0 +1,11 @@
+<!--pages/details/details.wxml-->
+<view class="container">
+  <view class='imageView'>
+    <image class='backgroundImage' src='/images/cardBG_Learn.jpeg'></image>
+    <image class='homeButton' src='/images/homeButton.png' bindtap='gotoHome'></image>
+    <image class='shareButton' src='/images/shareButton.png'></image>
+    <text class='titleText'>念经打卡</text>
+    <text class='dayText'>第100天</text>
+    <text class='memberNumText'>共0人参与</text>
+  </view>
+</view>

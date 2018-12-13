@@ -1,0 +1,29 @@
+
+{
+  "pages": [
+    "pages/details/details",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00B7F2",
+    "navigationBarTitleText": "念经打卡",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#D4D4D5",
+    "selectedColor": "#2AA0DE",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "我的签到",
+      "iconPath": "/images/myCalendar.png",
+      "selectedIconPath": "/images/myCalendar_selected.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "新建签到",
+      "iconPath": "/images/newCalendar.png",
+      "selectedIconPath": "/images/newCalendar_selected.png"
+    }]
+  }
+}
