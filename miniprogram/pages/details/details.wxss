@@ -1,4 +1,5 @@
 /* pages/details/details.wxss */
+
 .imageView{
   width: 100%;
   height: 350rpx;
@@ -56,4 +57,74 @@
   z-index: 2;
   right: 30rpx;
   bottom: 50rpx;
+}
+
+.memberView{
+  width: 100%;
+  height: 80rpx;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1rpx solid#F7F7F7;
+}
+
+.memberIcon{
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.memberText{
+  margin-left: 10rpx;
+  margin-top: 20rpx;
+  font-size: 35rpx;
+}
+
+.initiatorIcon{
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  width: 110rpx;
+  height: 40rpx;
+}
+
+.rightMemberManager{
+  float: right;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  height: 30rpx;
+  color: #89C9CC;
+  font-size: 35rpx;
+}
+.rightArrow{
+  margin-left: 10rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.dateView{
+  width: 100%;
+  height: 80rpx;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1rpx solid#F7F7F7;
+}
+
+.dateImage{
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+}
+
+.dateText{
+  font-size: 32rpx;
+  position: absolute;
+  color: gray;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+
+.signInButton{
+  top: 30rpx;
+  width: 90%;
 }

@@ -8,4 +8,18 @@
     <text class='dayText'>第100天</text>
     <text class='memberNumText'>共0人参与</text>
   </view>
+
+  <view class='memberView'>
+  <image class='memberIcon' src='/images/account.png'></image>
+  <text class='memberText'>温哲.ZhE</text>
+  <image class='initiatorIcon' src='/images/initiator.jpg'></image>
+  <view class='rightMemberManager'>成员管理<image class='rightArrow' src='/images/right_arrow.png'></image></view>
+  </view>
+
+  <view class='dateView'>
+  <image class='dateImage' src='/images/date.png'></image>  
+  <text class='dateText'>签到日期：2018-12-12 至 永久</text>
+  </view>
+
+  <button class='signInButton' type='primary' bindtap='gotoSignIn'>签到</button>
 </view>

@@ -12,6 +12,11 @@ Page({
       url: '../index/index',
     })
   },
+  gotoSignIn:function(options){
+    wx.navigateTo({
+      url: '../calendar/index',
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载
